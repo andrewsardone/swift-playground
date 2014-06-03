@@ -14,4 +14,8 @@
 
 [1, 2, 3, 4].map({ number in number * 3 })
 // [3, 6, 9, 12]
+
+// can use numbered index for parameters, too
+[1, 2, 3, 4].map({ $0 * 3 })
+// [3, 6, 9, 12]
 ```
