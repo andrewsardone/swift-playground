@@ -1,0 +1,3 @@
+- Option type, encapsulating the notion of `nil` in the type
+- Nested functions
+- functions are a first-class , that is, just a special case of closures
