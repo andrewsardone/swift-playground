@@ -13,7 +13,7 @@ import UIKit
 class MyView: UIView {
  
     // Now `fooColor` is configurable in Interface Builder – what up, designers!
-    @IBInspectable var fooColor: UIColor
+    @IBInspectable var fooColor: UIColor?
     
     init(frame: CGRect) {
         super.init(frame: frame)
