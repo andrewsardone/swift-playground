@@ -1,4 +1,4 @@
-## Xcode’s Interface Build & Swift
+## Xcode’s Interface Builder & Swift
 
 With the release of Xcode 6, we have a few new source annotations, such as
 `@IBDesignable` & `@IBInspectable`. While I don’t think their use is exclusive
