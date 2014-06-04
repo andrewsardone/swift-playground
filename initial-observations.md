@@ -29,3 +29,9 @@ myArray[0] = 1 // :-/
 ```
 
 when subclassing Obj-C classes, subclasses in swift need to stub the designated initializer
+
+### To Swift, or not to Swift
+
+Reasons for adopting Swift is difficult to pin down, besides Swift being the future of Apple development; however, Objective-C appears to providing all of Swift's utility. This section is meant to gather thoughts on "business of moving to Swift".
+
+*<pending>*
