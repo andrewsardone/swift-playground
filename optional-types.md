@@ -15,7 +15,9 @@ we can use option unwrapping to properly handle such cases.
 ### Further reading
 
 - [Option type (Wikipedia)][optt]
+- C++’s [`std::optional` template][cppopt]
 
 [optt]: https://en.wikipedia.org/wiki/Option_type
+[cppopt]: http://en.cppreference.com/w/cpp/experimental/optional
 
 [sbopt]: https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-XID_428
