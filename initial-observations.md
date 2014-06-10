@@ -28,7 +28,10 @@ let myArray: Any[] = ["foo", "bar", "baz"]
 myArray[0] = 1 // :-/
 ```
 
-when subclassing Obj-C classes, subclasses in swift need to stub the designated initializer
+### Things to keep in mind
+- when subclassing Obj-C classes, subclasses in swift need to stub the designated initializer
+- Global and static properties are already dispatch_once'd, so there's really no need for this. You can simply define the singleton instance as a global variable or static let property of a struct.
+-Swift will have access control mechanisms.
 
 ### To Swift, or not to Swift
 
