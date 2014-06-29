@@ -39,4 +39,21 @@ if !written {
 }
 ```
 
+### Ideal idiomatic Swift error handling
+
+I don’t think `NSErrorPointer` is the ideal method of handling errors in the
+world of Swift – it’s a stopgap to bridge into the C-world of Objective-C. When
+thinking about idiomatic error handling, we should ask whether or not
+conventions are good enough or if the *language* needs to provide some built-in
+mechanics?
+
+Exceptions as control-flow are a possible solution, but not one that’s
+historically favored by the Cocoa community. Not that exceptions are the way to
+go, but it should be noted that *some* sort of better error handling in a
+future of version of Swift is on [Chris Lattner’s radar][ehcl]:
+
+> We're aware of the opportunity and also desire better error handling features
+> in Swift, but they didn't make it in time for 1.0.
+
 [sei]: https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/AdoptingCocoaDesignPatterns.html#//apple_ref/doc/uid/TP40014216-CH7-XID_9
+[ehcl]: https://devforums.apple.com/message/995390#995390
