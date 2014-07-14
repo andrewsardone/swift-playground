@@ -16,6 +16,7 @@ we can use option unwrapping to properly handle such cases.
 
 - [Option type (Wikipedia)][optt]
 - C++’s [`std::optional` template][cppopt]
+- [Java 8’s Optionals](http://winterbe.com/posts/2014/03/16/java-8-tutorial/)
 
 [optt]: https://en.wikipedia.org/wiki/Option_type
 [cppopt]: http://en.cppreference.com/w/cpp/experimental/optional
